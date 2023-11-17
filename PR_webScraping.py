@@ -87,7 +87,5 @@ for i in links:
     print(isi)
     berita['berita'].append(tempDict)
 
-with open("sample.json", "w") as outfile:
+with open("output.json", "w") as outfile:
     json.dump(berita, outfile)
-
-# print(len(section))
